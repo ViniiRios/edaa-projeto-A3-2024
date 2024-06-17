@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramenta Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Ferramentas</h1>
+        <div>
+            <h2>Ferramentas Disponíveis</h2>
+            <ul id="ferramentas-list"></ul>
+            <button onclick="listarFerramentas()">Listar Ferramentas</button>
+        </div>
+        <div>
+            <h2>Emprestar Ferramenta</h2>
+            <input type="number" id="emprestar-id" placeholder="ID da Ferramenta">
+            <input type="number" id="emprestar-usuario-id" placeholder="ID do Usuário">
+            <input type="text" id="emprestar-usuario-nome" placeholder="Nome do Usuário">
+            <button onclick="emprestarFerramenta()">Emprestar</button>
+        </div>
+        <div>
+            <h2>Dar Baixa na Ferramenta</h2>
+            <input type="number" id="devolver-id" placeholder="ID da Ferramenta">
+            <button onclick="darBaixaFerramenta()">Dar Baixa</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
