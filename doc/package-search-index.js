@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.demo"},{"l":"com.ferramentainteligente.controller"},{"l":"com.ferramentainteligente.model"},{"l":"com.ferramentainteligente.repository"}];updateSearchResults();
